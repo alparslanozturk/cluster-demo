@@ -5,6 +5,7 @@
 
 if( session.getAttribute("sessiondate") == null) {
 	session.setAttribute("sessiondate", new java.util.Date());
+	System.out.println("--->>> Yeni bir oturum açılmıştır......." );
 }
 
 
